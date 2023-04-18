@@ -1,5 +1,6 @@
 body{
   color: #FFFF;
+  background-color: #333333;
 }
 
 .container{
@@ -226,4 +227,72 @@ body{
   position: absolute;
   top: -10px;
   right: 0px;
+}
+
+.about_the_theater{
+  margin-top: 150px;
+}
+
+.about_the_theater_title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Open Sans Condensed';
+}
+
+.about_the_theater_title_char_O{
+  color: #D1A954;
+}
+
+.about_the_theater_block_main{
+  display: flex;
+  gap: 30px;
+}
+
+.about_the_theater_block{
+  width: 445px;
+}
+
+.about_the_theater_block_info{
+  margin-top: 40px;
+}
+
+.about_the_theater_text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Open Sans Condensed';
+}
+
+.about_the_theater_text_2{
+  margin-top: 50px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: 'Open Sans';
+}
+
+.about_the_theater_block_info_text{
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans Condensed';
+}
+
+.about_the_theater_block_info_tex_yellow{
+  color: #D1A954;
 }
