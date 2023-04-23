@@ -384,7 +384,7 @@ body{
 
 .contacts_block_flex{
   display: flex;
-  gap: 125px;
+  gap: 60px;
 }
 
 .contacts_block_info_text{
@@ -408,7 +408,7 @@ body{
 .contacts_block_input{
   display: flex;
   flex-wrap: wrap;
-  width: 403px;
+  width: 430px;
   gap: 30px;
 }
 
@@ -423,9 +423,11 @@ body{
   line-height: 150%;
   color: #989898;
   font-family: 'Open Sans';
+  padding-left: 15px;
 }
 
 .contacts_block_textarea{
+  padding-left: 15px;
   height: 100px;
   background: #444444;
   border: 1px solid #616161;
@@ -472,7 +474,7 @@ body{
   color: #FFFFFF;
   font-family: 'Open Sans Condensed';
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 .footer{
