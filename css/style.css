@@ -243,6 +243,7 @@ body{
   text-transform: uppercase;
   color: #FFFFFF;
   font-family: 'Open Sans Condensed';
+  margin-bottom: 100px;
 }
 
 .about_the_theater_title_char_O{
@@ -295,4 +296,210 @@ body{
 
 .about_the_theater_block_info_tex_yellow{
   color: #D1A954;
+}
+
+.beset_theater{
+  margin-top: 150px;
+  margin-left: -50px;
+}
+
+.beset_theater_background_img{
+  background-image: url(/img/Rectangle\ 28.png);
+  width: 1110px;
+  height: 500px;
+}
+
+.beset_theater_block_flex{
+  display: flex;
+  justify-content: center;
+  gap: 103px;
+  align-items: center;
+  width: 1110px;
+  height: 500px;
+}
+
+.beset_theater_years_info{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #D1A954;
+  font-family: 'Open Sans Condensed';
+}
+
+.beset_theater_star{
+  margin-bottom: 25px;
+  content: url(/img/stars.svg);
+}
+
+.beset_theater_info{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  width: 480px;
+}
+
+.partners_of_the_theater{
+  margin-top: 150px;
+}
+
+.partners_of_the_theater_title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.yellow{
+  color: #D1A954;
+}
+
+.contacts{
+  margin-top: 120px;
+}
+
+.contacts_title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.contacts_block_flex{
+  display: flex;
+  gap: 125px;
+}
+
+.contacts_block_info_text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Open Sans Condensed';
+  margin-bottom: 25px;
+  width: 246px;
+}
+
+.contacts_block_to_send{
+  display: flex;
+  gap: 30px;
+}
+
+.contacts_block_input{
+  display: flex;
+  flex-wrap: wrap;
+  width: 403px;
+  gap: 30px;
+}
+
+.contacts_block_input_text{
+  background: #444444;
+  border: 1px solid #616161;
+  width: 180px;
+  height: 35px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  font-family: 'Open Sans';
+}
+
+.contacts_block_textarea{
+  height: 100px;
+  background: #444444;
+  border: 1px solid #616161;
+  width: 310px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #989898;
+  font-family: 'Open Sans';
+  resize: none;
+}
+
+.contacts_block2_info_button{
+  margin-top: 40px;
+  display: flex;
+  gap: 150px;
+}
+
+.contacts_block2_info{
+  width: 390px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+}
+
+.contacts_block2_button{
+  padding: 15px 45px;
+  background-color: #D1A954;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Open Sans Condensed';
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.footer{
+  margin-top: 80px;
+}
+
+.footer_line{
+  width: 1100px;
+  border: 1px solid #565656;
+}
+
+.footer_info{
+  margin: 30px 0;
+  display: flex;
+  width: 1100px;
+  gap: 600px;
+}
+
+.footer_info_text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  font-family: 'Open Sans';
+}
+
+.footer_info_text_left{
+  margin-left: 105px;
 }
