@@ -298,9 +298,110 @@ body{
   color: #D1A954;
 }
 
+.our_productions{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.our_productions_title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+}
+
+.our_productions_block{
+  display: flex;
+  width: 1175px;
+}
+
+
+.our_productions_block_info_1{
+  margin-top: 100px;
+  background-image: url(/img/Rectangle\ 15\ dark.png);
+  width: 442px;
+  height: 450px;
+  position: relative;
+}
+
+.our_productions_block_info_1:hover{
+  background-image: url(/img/Rectangle\ 15.png);
+}
+
+.our_productions_block_info_2{
+  margin-top: 100px;
+  background-image: url(/img/Rectangle\ 16\ dark.png);
+  width: 442px;
+  height: 450px;
+  position: relative;
+}
+
+.our_productions_block_info_2:hover{
+  background-image: url(/img/Rectangle\ 16.png);
+}
+
+.our_productions_block_info_3{
+  margin-top: 100px;
+  background-image: url(/img/Rectangle\ 17\ dark.png);
+  width: 442px;
+  height: 450px;
+  position: relative;
+}
+
+.our_productions_block_info_3:hover{
+  background-image: url(/img/Rectangle\ 17.png);
+}
+
+.our_productions_block_info_4{
+  margin-top: 100px;
+  background-image: url(/img/Rectangle\ 18\ dark.png);
+  width: 442px;
+  height: 450px;
+  position: relative;
+}
+
+.our_productions_block_info_4:hover{
+  background-image: url(/img/Rectangle\ 18.png);
+}
+
+.our_productions_block_info_text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+}
+
+.our_productions_block_info_text_block_text{
+  width: 342px;
+  height: 450px;
+}
+
+.our_productions_block_info_text_block{
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.our_productions_block_info_text_block2{
+  margin-top: 185px;
+  margin-left: -50px;
+  padding-top: 40px;
+  padding-left: 40px;
+  transform: rotate(-90deg);
+  height: 100px;
+  width: 200px;
+  z-index: -1;
+}
+
 .beset_theater{
   margin-top: 150px;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 
 .beset_theater_background_img{
