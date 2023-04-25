@@ -74,15 +74,18 @@ body{
 }
 
 .side_line{
-  width: 150px;
-  height: 1045px;
-  left: -180px;
-  top: 0px;
+  width: 75px;
+  height: 600px;
   background: rgba(51, 51, 51, 0.75);
   position: absolute;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  position: fixed;
+}
+
+.side_line_position{
+  position: relative;
 }
 
 .side_line_text{
@@ -95,23 +98,26 @@ body{
   color: #C4C4C4;
   transform: rotate(-90deg);
   font-family: 'Open Sans Condensed';
-  top: 525px;
   position: absolute;
+  top: -400px;
+  left: -122px;
   width: 245px;
   height: 25px;
 }
 
 .side_line__line{
-  border: 3px solid #C4C4C4;
+  border: 1px solid #C4C4C4;
   transform: rotate(90deg);
   width: 80px;
-  top: 739px;
+  top: -210px;
+  left: -40px;
   position: absolute;
 }
 
 .side_line_social_icon{
   position: absolute;
-  top: 825px;
+  top: -155px;
+  left: -12.5px;
   display: flex;
   flex-wrap: wrap;
   height: 174px;
@@ -315,57 +321,125 @@ body{
 }
 
 .our_productions_block{
-  display: flex;
   width: 1175px;
+  display: flex;
 }
 
 
 .our_productions_block_info_1{
   margin-top: 100px;
-  background-image: url(/img/Rectangle\ 15\ dark.png);
-  width: 442px;
-  height: 450px;
+  background:  linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(/img/Rectangle\ 15.png);
+  width: 342px;
   position: relative;
+  height: 450px;
 }
 
 .our_productions_block_info_1:hover{
-  background-image: url(/img/Rectangle\ 15.png);
+  background: url(/img/Rectangle\ 15.png);
+}
+
+.our_productions_block_info_1:hover .our_productions_text{
+  visibility: hidden;
+}
+
+.lupa_1{
+  position: absolute;
+  content: url(/img/Group\ 9.svg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  visibility: hidden;
+}
+
+.our_productions_block_info_1:hover .lupa_1{
+  visibility: visible;
 }
 
 .our_productions_block_info_2{
   margin-top: 100px;
-  background-image: url(/img/Rectangle\ 16\ dark.png);
-  width: 442px;
+  background:  linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(/img/Rectangle\ 16.png);
+   position: relative;
+  width: 342px;
   height: 450px;
-  position: relative;
 }
 
 .our_productions_block_info_2:hover{
-  background-image: url(/img/Rectangle\ 16.png);
+  background: url(/img/Rectangle\ 16.png);
+}
+
+.our_productions_block_info_2:hover .our_productions_text{
+  visibility: hidden;
+}
+
+.lupa_2{
+  position: absolute;
+  content: url(/img/Group\ 9.svg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  visibility: hidden;
+}
+
+.our_productions_block_info_2:hover .lupa_2{
+  visibility: visible;
 }
 
 .our_productions_block_info_3{
   margin-top: 100px;
-  background-image: url(/img/Rectangle\ 17\ dark.png);
-  width: 442px;
-  height: 450px;
+  background:  linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(/img/Rectangle\ 17.png);
+  width: 342px;
   position: relative;
+  height: 450px;
 }
 
 .our_productions_block_info_3:hover{
-  background-image: url(/img/Rectangle\ 17.png);
+  background: url(/img/Rectangle\ 17.png);
+}
+
+.our_productions_block_info_3:hover .our_productions_text{
+  visibility: hidden;
+}
+
+.lupa_3{
+  position: absolute;
+  content: url(/img/Group\ 9.svg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  visibility: hidden;
+}
+
+.our_productions_block_info_3:hover .lupa_3{
+  visibility: visible;
 }
 
 .our_productions_block_info_4{
   margin-top: 100px;
-  background-image: url(/img/Rectangle\ 18\ dark.png);
-  width: 442px;
-  height: 450px;
+  background:  linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(/img/Rectangle\ 18.png);
   position: relative;
+  width: 342px;
+  height: 450px;
 }
 
 .our_productions_block_info_4:hover{
-  background-image: url(/img/Rectangle\ 18.png);
+  background: url(/img/Rectangle\ 18.png);
+}
+
+.our_productions_block_info_4:hover .our_productions_text{
+  visibility: hidden;
+}
+
+.lupa_4{
+  position: absolute;
+  content: url(/img/Group\ 9.svg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  visibility: hidden;
+}
+
+.our_productions_block_info_4:hover .lupa_4{
+  visibility: visible;
 }
 
 .our_productions_block_info_text{
@@ -396,7 +470,6 @@ body{
   transform: rotate(-90deg);
   height: 100px;
   width: 200px;
-  z-index: -1;
 }
 
 .beset_theater{
